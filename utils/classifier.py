@@ -13,7 +13,7 @@ def keyword_classifier(transcript):
     canadian_keywords=['colour', 'neighbour', 'centre']
 
     text_lower = text.lower()
-    scores = {'British': 0, 'American': 0, 'Australian': 0,, 'Indian': 0, 'Canadian': 0}
+    scores = {'British': 0, 'American': 0, 'Australian': 0, 'Indian': 0, 'Canadian': 0}
 
     for word in british_keywords:
         if word in text_lower:
