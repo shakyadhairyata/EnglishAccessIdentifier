@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+accentenv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# MyPy
+.mypy_cache/
+
+# Dataset / model files
+datasets/
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+preprocessed_data.csv
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# Audio and video files
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.webm
+*.m4a
+
+# Streamlit specific
+.streamlit/
+**/.streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
