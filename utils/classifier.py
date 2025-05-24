@@ -47,9 +47,6 @@ def classify_accent(classifier, audio_path, label_encoder):
 
     mfcc = np.array(mfcc)
 
-    if np.isnan(mfcc).any():
-        print("MFCC contains NaNs")
-
     mfcc = mfcc.reshape(1, -1)
 
     try:
